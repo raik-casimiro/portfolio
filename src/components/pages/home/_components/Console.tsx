@@ -7,7 +7,7 @@ import { FaRegWindowMaximize } from "react-icons/fa";
 export default function Console() {
   return (
     <div className="flex w-full select-none items-center justify-center shadow-2xl">
-      <div className="flex flex-col md:w-[600px] min-w-[400px] h-[400px] md:h-[500px] bg-black text-white rounded-lg shadow-lg relative">
+      <div className="flex flex-col md:w-[600px] min-w-[400px] h-[400px] md:h-[500px] bg-black text-white rounded-lg shadow-xl ring ring-muted-foreground relative">
         <div className="absolute top-2 left-2 flex space-x-2">
           <div className="w-3 h-3 rounded-full bg-red-500" />
           <div className="w-3 h-3 rounded-full bg-yellow-500" />
