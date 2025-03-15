@@ -1,4 +1,7 @@
+import { CiUser } from "react-icons/ci";
+import { FaProjectDiagram } from "react-icons/fa";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { MdContactMail } from "react-icons/md";
 
 export const data = {
     sidebar: {
@@ -19,19 +22,18 @@ export const data = {
         pages: [
             { 
                 label: "Sobre_mim.tsx",  
-                hash: "#about"
+                hash: "#about",
+                icon: CiUser 
             },
             { 
                 label: "Projetos.tsx",  
-                hash: "#projects"
-            },
-            { 
-                label: "Habilidades.tsx",  
-                hash: "#skils"
+                hash: "#projects",
+                icon: FaProjectDiagram 
             },
             { 
                 label: "Contato.tsx",  
-                hash: "#contact"
+                hash: "#contact",
+                icon: MdContactMail 
             },
         ]
     }
