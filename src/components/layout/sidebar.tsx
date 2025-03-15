@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Sidebar() {
     return (
-        <aside className="bg-background">
+        <aside className="bg-background md:block hidden">
             <div className="px-4 py-1.5 flex justify-center">
                 <Image
                     aria-hidden
