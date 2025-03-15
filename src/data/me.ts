@@ -21,17 +21,17 @@ export const data = {
     header: {
         pages: [
             { 
-                label: "Sobre_mim.tsx",  
+                label: "About_me.tsx",  
                 hash: "#about",
                 icon: CiUser 
             },
             { 
-                label: "Projetos.tsx",  
+                label: "Projects.tsx",  
                 hash: "#projects",
                 icon: FaProjectDiagram 
             },
             { 
-                label: "Contato.tsx",  
+                label: "Contact.tsx",  
                 hash: "#contact",
                 icon: MdContactMail 
             },
