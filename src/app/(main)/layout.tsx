@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <Header />
           <hr className="border-t border-[#7A7A7C]" />
           {/* Main content */}
-          <div className="flex-1 overflow-auto p-3 bg-gradient-to-bl from-[#323233] to-[#3b3b3b]">
+          <div className="flex-1 overflow-auto p-3 bg-gradient-to-b from-muted to-background z-10">
             {children}
           </div>
         </div>
