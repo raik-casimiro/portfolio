@@ -11,7 +11,7 @@ export default function Header() {
     return (
         <div className="flex bg-background text-muted-foreground">
             {data.header.pages.map((page) => {
-                const isActive = page.hash === hash;
+                const isActive = page.hash === hash || (page.hash === '#about' && !hash);
                 return (
                     <Link
                         key={page.hash}
